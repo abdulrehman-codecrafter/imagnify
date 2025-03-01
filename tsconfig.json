@@ -22,6 +22,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "lib/actions/user.actions.js", "lib/database/moongoose.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "lib/actions/user.actions.js", "lib/database/moongoose.js", "lib/database/models/user.modal.js", "lib/database/models/transaction.model.js", "lib/database/models/image.model.js"],
   "exclude": ["node_modules"]
 }
